@@ -1,0 +1,11 @@
+{
+  "type": "normal",
+  "backgroundColor": "#00283e",
+  "foregroundColor": "#a0dcdb",
+  "weakColor": "#0d2c3c",
+  "strongColor": "#a0dcdb",
+  "radarColor": "#669ba2",
+  "contribColors": ["#0d2c3c", "#2a5868", "#487985", "#669ba2", "#a0dcdb"],
+  "growingAnimation": true,
+  "fileName": "profile-brand"
+}
