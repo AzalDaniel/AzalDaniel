@@ -14,9 +14,12 @@ permissions:
 jobs:
   metrics:
     runs-on: ubuntu-latest
+    env:
+      METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
     steps:
+      # Gate on env (secrets context is NOT allowed in `if`); stays skipped until the secret exists.
       - name: Generate metrics
-        if: ${{ secrets.METRICS_TOKEN != '' }}
+        if: ${{ env.METRICS_TOKEN != '' }}
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
