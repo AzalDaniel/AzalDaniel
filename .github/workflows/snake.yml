@@ -3,7 +3,10 @@ name: Generate Snake
 on:
   schedule:
     - cron: "0 0 * * *"   # daily at 00:00 UTC
-  workflow_dispatch:        # manual "Run workflow" button
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths: [ ".github/workflows/snake.yml" ]   # self-trigger only; avoids loops
 
 jobs:
   generate:

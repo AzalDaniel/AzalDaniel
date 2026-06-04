@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "30 0 * * *"   # daily, just after the snake
   workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths: [ ".github/workflows/3d-contrib.yml" ]   # self-trigger only; the daily art commit won't loop
 
 permissions:
   contents: write
