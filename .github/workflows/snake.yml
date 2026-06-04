@@ -4,8 +4,6 @@ on:
   schedule:
     - cron: "0 0 * * *"   # daily at 00:00 UTC
   workflow_dispatch:        # manual "Run workflow" button
-  push:
-    branches: [ main ]
 
 jobs:
   generate:
@@ -14,14 +12,14 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Generate the snake from the contribution graph
+      - name: Generate the snake (brand-themed: navy → aqua)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/github-snake.gif?color_snake=#c0392b&color_dots=#fbeff0,#e8b3bc,#d17d8c,#b94f63,#9b2335
+            dist/github-snake.svg?color_snake=#00283e&color_dots=#e9f3f3,#a0dcdb,#669ba2,#2a5868,#00283e
+            dist/github-snake-dark.svg?color_snake=#a0dcdb&color_dots=#16212a,#1d3b49,#2a5868,#669ba2,#a0dcdb
+            dist/github-snake.gif?color_snake=#a0dcdb&color_dots=#16212a,#1d3b49,#2a5868,#669ba2,#a0dcdb
 
       - name: Publish to the output branch
         uses: crazy-max/ghaction-github-pages@v4
