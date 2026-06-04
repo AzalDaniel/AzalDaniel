@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "0 1 * * *"
   workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths: [ ".github/workflows/metrics.yml" ]
 
 permissions:
   contents: write
@@ -12,8 +15,6 @@ jobs:
   metrics:
     runs-on: ubuntu-latest
     steps:
-      # This step stays SKIPPED (job still succeeds) until you add a METRICS_TOKEN
-      # secret: Settings -> Secrets and variables -> Actions -> New repository secret.
       - name: Generate metrics
         if: ${{ secrets.METRICS_TOKEN != '' }}
         uses: lowlighter/metrics@latest
@@ -33,5 +34,7 @@ jobs:
           plugin_habits_charts: yes
           plugin_achievements: yes
           plugin_achievements_threshold: C
+          plugin_wakatime: ${{ secrets.WAKATIME_API_KEY != '' }}
+          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
           output_action: commit
           committer_branch: main

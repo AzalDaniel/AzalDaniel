@@ -2,11 +2,11 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # daily at 00:00 UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches: [ main ]
-    paths: [ ".github/workflows/snake.yml" ]   # self-trigger only; avoids loops
+    paths: [ ".github/workflows/snake.yml" ]
 
 jobs:
   generate:
@@ -15,10 +15,11 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Generate the snake (brand-themed: navy → aqua)
+      - name: Generate the snake (brand-themed, private-inclusive)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.METRICS_TOKEN }}
           outputs: |
             dist/github-snake.svg?color_snake=#00283e&color_dots=#e9f3f3,#a0dcdb,#669ba2,#2a5868,#00283e
             dist/github-snake-dark.svg?color_snake=#a0dcdb&color_dots=#16212a,#1d3b49,#2a5868,#669ba2,#a0dcdb
