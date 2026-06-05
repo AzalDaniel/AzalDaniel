@@ -8,7 +8,7 @@
 </a>
 
 <p>
-  <a href="mailto:arabicphysicist@gmail.com"><img src="https://img.shields.io/badge/Email-00283E?style=flat-square&logo=gmail&logoColor=A0DCDB" alt="Email" /></a>
+  <a href="mailto:azaldaniel@dr.com"><img src="https://img.shields.io/badge/Email-00283E?style=flat-square&logo=gmail&logoColor=A0DCDB" alt="Email" /></a>
   <!-- Uncomment & fill when ready:
   <a href="https://orcid.org/YOUR-ORCID-ID"><img src="https://img.shields.io/badge/ORCID-00283E?style=flat-square&logo=orcid&logoColor=A0DCDB" /></a>
   <a href="https://www.linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-00283E?style=flat-square&logo=linkedin&logoColor=A0DCDB" /></a>
