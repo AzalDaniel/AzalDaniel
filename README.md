@@ -9,10 +9,7 @@
 
 <p>
   <a href="mailto:azaldaniel@dr.com"><img src="https://img.shields.io/badge/Email-00283E?style=flat-square&logo=gmail&logoColor=A0DCDB" alt="Email" /></a>
-  <!-- Uncomment & fill when ready:
-  <a href="https://orcid.org/YOUR-ORCID-ID"><img src="https://img.shields.io/badge/ORCID-00283E?style=flat-square&logo=orcid&logoColor=A0DCDB" /></a>
-  <a href="https://www.linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-00283E?style=flat-square&logo=linkedin&logoColor=A0DCDB" /></a>
-  -->
+  <a href="[https://www.linkedin.com/in/YOUR-HANDLE](https://www.linkedin.com/in/azal-daniel/)"><img src="https://img.shields.io/badge/LinkedIn-00283E?style=flat-square&logo=linkedin&logoColor=A0DCDB" /></a>
 </p>
 
 </div>
@@ -21,13 +18,6 @@
 <div align="center">
 
 Doctor building at the intersection of **medicine**, **design**, and **machine learning**.
-
-</div>
-
-<!-- ════════════════════════  3D CONTRIBUTIONS  ════════════════════════ -->
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/AzalDaniel/AzalDaniel/main/profile-3d-contrib/profile-brand.svg" width="88%" alt="3D contribution graph" />
 
 </div>
 
