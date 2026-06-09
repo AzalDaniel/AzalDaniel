@@ -26,7 +26,7 @@ Doctor building at the intersection of **medicine**, **design**, and **machine l
 
 #### ⟡ &nbsp; stack &nbsp; ⟡
 
-<img src="https://skillicons.dev/icons?i=ae,au,bootstrap,c,css,discord,docker,figma,flask,git,github,html,ai,js,kali,linkedin,notion,obsidian,ps,powershell,py,r,regex,replit,sqlite,svg,vscode,windows&theme=dark&perline=7" alt="stack" />
+<img src="https://skillicons.dev/icons?i=ae,bootstrap,c,css,docker,figma,flask,git,github,html,js,kali,matlab,md,notion,obsidian,ps,powershell,py,pytorch,r,regex,sklearn,sqlite,svg,tensorflow,vercel,vscode&theme=dark&perline=7" alt="stack" />
 
 </div>
 
