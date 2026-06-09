@@ -8,8 +8,8 @@
 </a>
 
 <p>
-  <a href="mailto:azaldaniel@dr.com"><img src="https://img.shields.io/badge/Email-00283E?style=flat-square&logo=gmail&logoColor=A0DCDB" alt="Email" /></a>
-  <a href="[https://www.linkedin.com/in/YOUR-HANDLE](https://www.linkedin.com/in/azal-daniel/)"><img src="https://img.shields.io/badge/LinkedIn-00283E?style=flat-square&logo=linkedin&logoColor=A0DCDB" /></a>
+  <a href="mailto:azaldaniel@outlook.com"><img src="https://img.shields.io/badge/Email-00283E?style=flat-square&logo=gmail&logoColor=A0DCDB" alt="Email" /></a>
+  <a href="(https://www.linkedin.com/in/azal-daniel/)"><img src="https://img.shields.io/badge/LinkedIn-00283E?style=flat-square&logo=linkedin&logoColor=A0DCDB" /></a>
 </p>
 
 </div>
