@@ -20,10 +20,7 @@
 <!-- ════════════════════════════  ABOUT  ════════════════════════════ -->
 <div align="center">
 
-Final-year medical student building at the intersection of **medicine**, **design**, and **machine learning**.
-CS50 done — now heading into AI/ML research and remote engineering. I like typography, logos, and turning
-messy clinical problems into clean systems: HTML email pipelines, a PF → Tebra data migration, and a
-medical-billing intelligence engine.
+Doctor building at the intersection of **medicine**, **design**, and **machine learning**.
 
 </div>
 
@@ -39,7 +36,7 @@ medical-billing intelligence engine.
 
 #### ⟡ &nbsp; stack &nbsp; ⟡
 
-<img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,fastapi,react,ts,tailwind,git,github,vscode,docker,postgres,linux,figma&theme=dark" alt="stack" />
+<img src="https://skillicons.dev/icons?i=ae,au,bootstrap,c,css,discord,docker,figma,flask,git,github,html,ai, js, kali, linkedin, notion, obsidian, ps, powershell, py, r, regex, replit, sqlite, svg, vscode, windows&theme=dark" alt="stack" />
 
 </div>
 
@@ -71,7 +68,5 @@ medical-billing intelligence engine.
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AzalDaniel/AzalDaniel/output/github-snake.svg" />
   <img alt="snake eating my contribution graph" src="https://raw.githubusercontent.com/AzalDaniel/AzalDaniel/output/github-snake.svg" />
 </picture>
-
-<sub>navy → aqua, themed to my Uranus mark · all panels auto-update daily</sub>
 
 </div>
