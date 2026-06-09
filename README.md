@@ -43,13 +43,6 @@ Doctor building at the intersection of **medicine**, **design**, and **machine l
 
 </div>
 
-<!-- ═════════════════════════  DEEP STATS (metrics)  ══════════════════════ -->
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/AzalDaniel/AzalDaniel/main/github-metrics.svg" width="88%" alt="GitHub metrics — isometric calendar, languages, habits, achievements" />
-
-</div>
-
 <!-- ════════════════════════════  SNAKE  ════════════════════════════ -->
 <div align="center">
 
