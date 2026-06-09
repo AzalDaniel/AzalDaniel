@@ -1,7 +1,7 @@
 <!-- ════════════════════════════  HERO  ════════════════════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00283e,50:2a5868,100:669ba2&height=190&section=header&text=Dr%20Azal%20Daniel&fontSize=48&fontColor=a0dcdb&fontAlignY=36&desc=Medicine%20%C3%97%20Design%20%C3%97%20Machine%20Learning&descAlignY=56&descSize=16&descColor=c0fffb" width="100%" alt="Dr Azal Daniel" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00283e,50:2a5868,100:669ba2&height=190&section=header&text=Dr%20Azal%20Daniel&fontSize=48&fontColor=a0dcdb&fontAlignY=36&desc=Medicine%20%C3%97%20x%20%C3%97%20Machines%20&descAlignY=56&descSize=16&descColor=c0fffb" width="100%" alt="Dr Azal Daniel" />
 
 <a href="https://github.com/AzalDaniel">
   <img src="https://readme-typing-svg.demolab.com?font=Sora&weight=600&size=22&pause=1200&color=A0DCDB&center=true&vCenter=true&width=640&lines=Doctor+%C2%B7+Designer+%C2%B7+Engineer;Medicine+%C3%97+Machine+Learning;Final-year+MBBS+%E2%80%A2+CS50+%E2%80%A2+AI%2FML" alt="taglines" />
